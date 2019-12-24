@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url("https://nomail.com.ua/files/eot/ea3fdfa648b7ec0e4183621443f549e3.eot?#iefix") format("embedded-opentype"), url("https://nomail.com.ua/files/woff/ea3fdfa648b7ec0e4183621443f549e3.woff") format("woff"), url("https://nomail.com.ua/files/woff2/ea3fdfa648b7ec0e4183621443f549e3.woff2") format("woff2"); }
+
+header .navbar-transparent {
+  background-color: transparent; }
+
+header .navbar {
+  padding: 0 15%; }
+  header .navbar .social-group {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 0 7%; }
+    header .navbar .social-group .social-link {
+      list-style-type: none; }
+      header .navbar .social-group .social-link a {
+        background-color: #396375; }
+        header .navbar .social-group .social-link a i {
+          color: #FFF; }
+  header .navbar .navbar-nav .nav-item {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 27.78px; }
+    header .navbar .navbar-nav .nav-item.active {
+      color: #E21D5D; }
+    header .navbar .navbar-nav .nav-item .nav-link {
+      text-decoration: none;
+      color: #396375; }
+
+.baner {
+  background-image: url("../images/Layer_5.png"); }
+  .baner h2 {
+    padding: 15% 25%;
+    font-family: 'Trebuchet MS';
+    font-size: 53px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 61.11px;
+    text-shadow: 0 2px 0 rgba(255, 255, 255, 0.49);
+    color: #256988; }
